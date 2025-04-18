@@ -30,4 +30,5 @@ mybatis:
 
 jwt:
   secret: my-super-secret-key-123456789012345
-  expire-time-ms: 3600000
+  expire-time-ms: 3600001
+  
