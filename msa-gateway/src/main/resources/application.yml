@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+routes:
+  auth-service: http://localhost:8081
+  board-service: http://localhost:8082
+
+jwt:
+  secret: my-very-secret-key-1234567890123456

@@ -1,0 +1,38 @@
+# IDE 설정 (Eclipse / STS)
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.recommenders/
+
+# 빌드 결과물
+target/
+bin/
+
+# 로그 파일
+*.log
+
+# OS별 임시 파일
+.DS_Store
+Thumbs.db
+
+# 환경설정 파일
+.env
+*.properties.local
+application-*.yml
+application-*.properties
+
+# maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# IntelliJ 관련 (협업 시 유의)
+.idea/
+*.iml
+
+# 기타
+*.swp
+*.tmp

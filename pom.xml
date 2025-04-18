@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>mas-ws</groupId>
+	<artifactId>ncc</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>ncc</name>
+
+	<modules>
+		<module>msa-auth-service</module>
+		<module>msa-board-service</module>
+		<module>msa-common-lib</module>
+		<module>msa-frontend</module>
+		<module>msa-gateway</module>
+	</modules>
+
+</project>
